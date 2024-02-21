@@ -7,7 +7,6 @@ public class MTitik{
         t2.setOrdinat(7);
         t1.setOrdinat(7);
 
-        System.out.println("Jumlah Objek Titik : " + t2.getCounter());
         System.out.println("t1(" + t1.getAbsis() + ","+t1.getOrdinat() + ")");
         System.out.println("t2(" + t2.getAbsis() + ","+t2.getOrdinat() + ")");
         
