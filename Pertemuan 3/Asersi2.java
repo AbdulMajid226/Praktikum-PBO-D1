@@ -13,11 +13,11 @@ class Lingkaran{
 
 public class Asersi2 {
     public static void main(String[] args){
-        double jariJari = 0;
-        assert(jariJari>0): "jari-jari tidak boleh nol atau negatif"; //harusnya pesan errornya jari jari tidak boleh nol atau negatif
+        double jariJari = -1;
+        assert(jariJari>0): "jari-jari tidak boleh nol atau negatif"; 
         Lingkaran lingkaran = new Lingkaran(jariJari);
         double kelilingLingkaran = lingkaran.hitungKeliling();
         System.out.println("Keliling lingkaran = "+kelilingLingkaran);
     }
 }
-//harusnya pesan errornya : jari jari tidak boleh nol atau negatif
+//harusnya pesan errornya  "jari jari tidak boleh nol atau negatif" karena panjang jari jari juga tidak boleh negatif
